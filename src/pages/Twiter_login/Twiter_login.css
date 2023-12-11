@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/*form */
+
+
+.modal-body-area {
+  padding: 0px 80px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+form input{
+  border: 1px solid #dddfe2;
+  width: 430px;
+  padding: 18px 11px;
+  margin: 15px 0px;
+  outline-color: #1d9bf0;
+  font-size: 19px;
+  border-radius: 4px;
+}
+form .small{
+  text-align: right;
+}
+.date-content h4{
+  font-size: 18px;
+    margin-top: 15px;
+}
+.date-content p{
+  color: #484b4d;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+}
+
+.h-date{
+  display: flex;
+  gap: 12px;
+  margin-top: 19px;
+}
+form select{
+  padding: 18px 4px;
+  border: 1px solid #dddfe2;
+  outline-color: #1d9bf0;
+  border-radius: 4px;
+}
+select.first {
+  width: 201px;
+}
+select.second {
+  width: 87px;
+}
+select.third {
+  width: 115px;
+}
+.modal-body-area button{
+   
+      margin-top: 32px;
+    margin-bottom: 28px;
+    padding: 15px 0px;
+    border-radius: 21px;
+    background-color: #87898c;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.tw-login-area {
+}
+
+.tw-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tw-left {
+  width: 60%;
+  text-align: center;
+  margin-top: 12%;
+}
+.tw-left img {
+  width: 100%;
+  max-width: 653px
+}
+.tw-right {
+  width: 40%;
+}
+.tw-right h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: 18%;
+}
+.tw-right h4 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.buttons {
+  padding: 2px;
+  border-radius: 22px;
+  display: flex;
+  width: 298px;
+  justify-content: space-evenly;
+  border: 1px solid #dadce0;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.buttons-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-left img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.buttons-left h4 {
+  font-size: 13px;
+  margin: 0px;
+  font-weight: 800;
+  color: #3c4043;
+}
+.buttons-left h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5f6368;
+}
+.buttons svg {
+  font-size: 13px;
+  color: #5f6368;
+  transform: translate(1px, 3px);
+}
+
+.buttons-right img {
+  width: 30px;
+}
+
+.buttons-2 {
+  margin-top: 9px;
+  padding: 8px;
+  border-radius: 22px;
+
+  width: 298px;
+  text-align: center;
+  border: 1px solid #dadce0;
+
+  cursor: pointer;
+}
+.buttons-2 h3 {
+  gap: 7px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+    display: block;
+    width: 298px;
+    border-bottom: 1px solid #dadce0;
+    margin-top: 4px;
+    text-align: center;
+}
+.line h2 {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    padding: 0 7px;
+    display: inline-block;
+    background: white;
+    font-weight: 500;
+}
+
+.buttons-3 {
+  margin-top: 19px;
+  padding: 8px;
+  border-radius: 22px;
+background-color: rgb(29, 155, 240);
+color: white;
+  width: 298px;
+  text-align: center;
+  border: 1px solid #dadce0;
+
+  cursor: pointer;
+}
+
+.tests{
+
+    font-size: 12px;
+    margin-top: 10px;
+cursor: pointer;
+}
+
+.tests a{
+  color: rgb(29, 155, 240);
+}
+.tests h2{
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 8%;
+}
+.buttons-4 {
+  margin-top: 19px;
+  padding: 8px;
+  border-radius: 22px;
+color: rgb(29, 155, 240);
+
+  width: 298px;
+  text-align: center;
+  border: 1px solid #dadce0;
+
+  cursor: pointer;
+}
+
+.buttons-4:hover{
+  background-color: #e8f5fd;
+}
+
+
+.footer{
+  width: 100%;
+
+  text-align: center;
+  margin: 4% 0%;
+}
+.footer a{
+
+    margin: 0px 6px;
+    color: rgb(83, 100, 113);
+
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.dev {
+  margin-top: 10px;
+}
